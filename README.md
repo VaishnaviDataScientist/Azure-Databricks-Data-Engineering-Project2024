@@ -21,15 +21,37 @@ This project showcases a complete data engineering pipeline utilizing Apache Spa
 - **Data Modeling**
   - Utilized DBT for SQL-based data transformations and modeling within the medallion architecture.
 
-#
+###STORAGE ACC - MEDALLION 
+
+![alt text](image-2.png)
+
+###ADF pipeline
 
 ![alt text](image-1.png)
 
+## DBT Generated Workflow Document
 
+Access the DBT-generated workflow document at the following URL:
+[DBT Workflow Document](http://localhost:8080/#!/model/model.medallion_dbt_spark.dim_sales)
 
-Try running the following commands:
+## Installation Commands for DBT Connection from IDE
+
+For setting up DBT in your development environment using PyCharm, follow these installation commands:
+
+- **IDE Used:** PyCharm
+
+- **Install DBT for Databricks:** pip install dbt-databricks
+
+- **Install Databricks CLI** pip install databricks-cli
+
+- **Verify Databricks File System** databricks fs ls
+
+- **Initialize DBT Project** dbt init
+
+Try running the following dbt commands:
 - dbt run
 - dbt test
+
 
 
 ### Resources:
