@@ -21,11 +21,11 @@ This project showcases a complete data engineering pipeline utilizing Apache Spa
 - **Data Modeling**
   - Utilized DBT for SQL-based data transformations and modeling within the medallion architecture.
 
-###STORAGE ACC - MEDALLION 
+### STORAGE ACC - MEDALLION 
 
 ![alt text](image-2.png)
 
-###ADF pipeline
+### ADF pipeline
 
 ![alt text](image-1.png)
 
