@@ -29,7 +29,13 @@ This project showcases a complete data engineering pipeline utilizing Apache Spa
 
 ![alt text](image-1.png)
 
-## DBT Generated Workflow Document
+### Databricks Cluster for compute
+
+![image](https://github.com/user-attachments/assets/75e0df0c-1fae-43a4-bfc9-fbed3690bd80)
+
+
+
+### DBT Generated Workflow Document
 
 Access the DBT-generated workflow document at the following URL:
 [DBT Workflow Document](http://localhost:8080/#!/model/model.medallion_dbt_spark.dim_sales)
